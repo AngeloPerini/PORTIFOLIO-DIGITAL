@@ -1,6 +1,8 @@
 import type { PortfolioData } from '../types/portfolio';
 import { createAbstractPreview } from '../utils/portfolio';
 
+const publicAsset = (path: string): string => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+
 export const portfolio: PortfolioData = {
   profile: {
     name: 'Angelo Perini',
@@ -350,7 +352,7 @@ export const portfolio: PortfolioData = {
         es: 'Gestión de condominios',
         it: 'Gestione condominiale',
       },
-      image: '/projects/condominio/condominio-login.jpg',
+      image: publicAsset('projects/condominio/condominio-login.jpg'),
       imageAlt: {
         pt: 'Tela de login personalizada do sistema de gerenciamento de condomínio Residencial Jardim das Palmeiras.',
         en: 'Customized login screen for the Residencial Jardim das Palmeiras condominium management system.',
@@ -359,7 +361,7 @@ export const portfolio: PortfolioData = {
       },
       gallery: [
         {
-          src: '/projects/condominio/condominio-dashboard.jpg',
+          src: publicAsset('projects/condominio/condominio-dashboard.jpg'),
           alt: {
             pt: 'Dashboard administrativo do condomínio com atalhos, indicadores e visão geral operacional.',
             en: 'Condominium admin dashboard with shortcuts, indicators, and operational overview.',
@@ -368,7 +370,7 @@ export const portfolio: PortfolioData = {
           },
         },
         {
-          src: '/projects/condominio/condominio-reservas.jpg',
+          src: publicAsset('projects/condominio/condominio-reservas.jpg'),
           alt: {
             pt: 'Tela de espaços e reservas com churrasqueira selecionada, regras e dados de agendamento.',
             en: 'Spaces and reservations screen with barbecue area selected, rules, and booking details.',
@@ -377,7 +379,7 @@ export const portfolio: PortfolioData = {
           },
         },
         {
-          src: '/projects/condominio/condominio-financeiro.jpg',
+          src: publicAsset('projects/condominio/condominio-financeiro.jpg'),
           alt: {
             pt: 'Fila de reservas do condomínio com status financeiro, solicitante e ações administrativas.',
             en: 'Condominium reservation queue with financial status, requester, and administrative actions.',
@@ -386,7 +388,7 @@ export const portfolio: PortfolioData = {
           },
         },
         {
-          src: '/projects/condominio/condominio-comunicados-editor.jpg',
+          src: publicAsset('projects/condominio/condominio-comunicados-editor.jpg'),
           alt: {
             pt: 'Editor de comunicados do condomínio com formulário e prévia do feed.',
             en: 'Condominium announcements editor with form and feed preview.',
@@ -395,7 +397,7 @@ export const portfolio: PortfolioData = {
           },
         },
         {
-          src: '/projects/condominio/condominio-comunicados-feed.jpg',
+          src: publicAsset('projects/condominio/condominio-comunicados-feed.jpg'),
           alt: {
             pt: 'Feed de comunicados e alertas do condomínio com filtros por status e categoria.',
             en: 'Condominium announcements and alerts feed with status and category filters.',
@@ -545,7 +547,7 @@ export const portfolio: PortfolioData = {
         es: 'Mantenimiento industrial',
         it: 'Manutenzione industriale',
       },
-      image: '/projects/manutencao-kanban.svg',
+      image: publicAsset('projects/manutencao-kanban.svg'),
       imageAlt: {
         pt: 'Tela em estilo kanban do sistema de gerenciamento de manutenção industrial.',
         en: 'Kanban-style screen from the industrial maintenance management system.',
@@ -554,7 +556,7 @@ export const portfolio: PortfolioData = {
       },
       gallery: [
         {
-          src: '/projects/manutencao-ordens.svg',
+          src: publicAsset('projects/manutencao-ordens.svg'),
           alt: {
             pt: 'Lista de ordens de manutenção com prioridade, prazo e rastreabilidade.',
             en: 'Maintenance order list with priority, deadline, and traceability.',
@@ -563,7 +565,7 @@ export const portfolio: PortfolioData = {
           },
         },
         {
-          src: '/projects/manutencao-maquinas.svg',
+          src: publicAsset('projects/manutencao-maquinas.svg'),
           alt: {
             pt: 'Tela de máquina com histórico técnico e manutenções registradas.',
             en: 'Machine detail screen with technical history and registered maintenance.',
@@ -572,7 +574,7 @@ export const portfolio: PortfolioData = {
           },
         },
         {
-          src: '/projects/manutencao-estoque.svg',
+          src: publicAsset('projects/manutencao-estoque.svg'),
           alt: {
             pt: 'Controle de estoque por máquina com peças críticas e reposição.',
             en: 'Per-machine inventory control with critical parts and replenishment.',

@@ -65,6 +65,25 @@ export default function ProjectCard({ project, featured = false }: ProjectCardPr
           <p className="max-w-2xl text-sm leading-7 text-[var(--text-muted)] sm:text-base">{summary}</p>
         </div>
 
+        <div className="flex flex-wrap gap-3">
+          <Link to={`/projects/${project.slug}`} className="primary-button inline-flex items-center gap-2">
+            {t('common.actions.viewCase')}
+            <ArrowUpRight className="h-4 w-4" />
+          </Link>
+
+          {project.demoUrl ? (
+            <a
+              href={project.demoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="secondary-button inline-flex items-center gap-2"
+            >
+              {t('common.actions.openDemo')}
+              <ExternalLink className="h-4 w-4" />
+            </a>
+          ) : null}
+        </div>
+
         <div className="mt-auto flex flex-col gap-5">
           <ul className="space-y-2 text-sm leading-6 text-[var(--text-secondary)]">
             {project.features.slice(0, 3).map((feature) => (
@@ -84,25 +103,6 @@ export default function ProjectCard({ project, featured = false }: ProjectCardPr
                 {technology}
               </span>
             ))}
-          </div>
-
-          <div className="flex flex-wrap gap-3">
-            <Link to={`/projects/${project.slug}`} className="primary-button inline-flex items-center gap-2">
-              {t('common.actions.viewCase')}
-              <ArrowUpRight className="h-4 w-4" />
-            </Link>
-
-            {project.demoUrl ? (
-              <a
-                href={project.demoUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="secondary-button inline-flex items-center gap-2"
-              >
-                {t('common.actions.openDemo')}
-                <ExternalLink className="h-4 w-4" />
-              </a>
-            ) : null}
           </div>
         </div>
       </div>

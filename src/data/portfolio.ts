@@ -327,7 +327,7 @@ export const portfolio: PortfolioData = {
     {
       slug: 'condominium-management-saas',
       name: {
-        pt: 'Condominium Management SaaS',
+        pt: 'Gerenciamento de Condomínio',
         en: 'Condominium Management SaaS',
         es: 'Condominium Management SaaS',
         it: 'Condominium Management SaaS',
@@ -350,13 +350,61 @@ export const portfolio: PortfolioData = {
         es: 'Gestión de condominios',
         it: 'Gestione condominiale',
       },
-      image: '/projects/condominio-login.svg',
+      image: '/projects/condominio/condominio-login.jpg',
+      imageAlt: {
+        pt: 'Tela de login personalizada do sistema de gerenciamento de condomínio Residencial Jardim das Palmeiras.',
+        en: 'Customized login screen for the Residencial Jardim das Palmeiras condominium management system.',
+        es: 'Pantalla de login personalizada del sistema de gestión de condominios Residencial Jardim das Palmeiras.',
+        it: 'Schermata di login personalizzata del sistema di gestione condominiale Residencial Jardim das Palmeiras.',
+      },
       gallery: [
-        '/projects/condominio-dashboard.svg',
-        '/projects/condominio-reservas.svg',
-        '/projects/condominio-comunicados.svg',
+        {
+          src: '/projects/condominio/condominio-dashboard.jpg',
+          alt: {
+            pt: 'Dashboard administrativo do condomínio com atalhos, indicadores e visão geral operacional.',
+            en: 'Condominium admin dashboard with shortcuts, indicators, and operational overview.',
+            es: 'Dashboard administrativo del condominio con accesos rápidos, indicadores y visión operativa general.',
+            it: 'Dashboard amministrativo del condominio con scorciatoie, indicatori e panoramica operativa.',
+          },
+        },
+        {
+          src: '/projects/condominio/condominio-reservas.jpg',
+          alt: {
+            pt: 'Tela de espaços e reservas com churrasqueira selecionada, regras e dados de agendamento.',
+            en: 'Spaces and reservations screen with barbecue area selected, rules, and booking details.',
+            es: 'Pantalla de espacios y reservas con parrilla seleccionada, reglas y datos de agenda.',
+            it: 'Schermata spazi e prenotazioni con area barbecue selezionata, regole e dati di prenotazione.',
+          },
+        },
+        {
+          src: '/projects/condominio/condominio-financeiro.jpg',
+          alt: {
+            pt: 'Fila de reservas do condomínio com status financeiro, solicitante e ações administrativas.',
+            en: 'Condominium reservation queue with financial status, requester, and administrative actions.',
+            es: 'Fila de reservas del condominio con estado financiero, solicitante y acciones administrativas.',
+            it: 'Coda delle prenotazioni del condominio con stato finanziario, richiedente e azioni amministrative.',
+          },
+        },
+        {
+          src: '/projects/condominio/condominio-comunicados-editor.jpg',
+          alt: {
+            pt: 'Editor de comunicados do condomínio com formulário e prévia do feed.',
+            en: 'Condominium announcements editor with form and feed preview.',
+            es: 'Editor de comunicados del condominio con formulario y vista previa del feed.',
+            it: 'Editor comunicati del condominio con modulo e anteprima del feed.',
+          },
+        },
+        {
+          src: '/projects/condominio/condominio-comunicados-feed.jpg',
+          alt: {
+            pt: 'Feed de comunicados e alertas do condomínio com filtros por status e categoria.',
+            en: 'Condominium announcements and alerts feed with status and category filters.',
+            es: 'Feed de comunicados y alertas del condominio con filtros por estado y categoría.',
+            it: 'Feed di comunicati e avvisi del condominio con filtri per stato e categoria.',
+          },
+        },
       ],
-      stack: ['React', 'Vite', 'Tailwind CSS', 'ASP.NET Core', 'PostgreSQL', 'Supabase'],
+      stack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'ASP.NET Core', 'PostgreSQL', 'Supabase'],
       status: {
         pt: 'Pronto para produção',
         en: 'Production Ready',
@@ -498,10 +546,40 @@ export const portfolio: PortfolioData = {
         it: 'Manutenzione industriale',
       },
       image: '/projects/manutencao-kanban.svg',
+      imageAlt: {
+        pt: 'Tela em estilo kanban do sistema de gerenciamento de manutenção industrial.',
+        en: 'Kanban-style screen from the industrial maintenance management system.',
+        es: 'Pantalla estilo kanban del sistema de gestión de mantenimiento industrial.',
+        it: 'Schermata in stile kanban del sistema di gestione della manutenzione industriale.',
+      },
       gallery: [
-        '/projects/manutencao-ordens.svg',
-        '/projects/manutencao-maquinas.svg',
-        '/projects/manutencao-estoque.svg',
+        {
+          src: '/projects/manutencao-ordens.svg',
+          alt: {
+            pt: 'Lista de ordens de manutenção com prioridade, prazo e rastreabilidade.',
+            en: 'Maintenance order list with priority, deadline, and traceability.',
+            es: 'Lista de órdenes de mantenimiento con prioridad, plazo y trazabilidad.',
+            it: 'Lista degli ordini di manutenzione con priorità, scadenza e tracciabilità.',
+          },
+        },
+        {
+          src: '/projects/manutencao-maquinas.svg',
+          alt: {
+            pt: 'Tela de máquina com histórico técnico e manutenções registradas.',
+            en: 'Machine detail screen with technical history and registered maintenance.',
+            es: 'Pantalla de máquina con historial técnico y mantenimientos registrados.',
+            it: 'Schermata macchina con storico tecnico e manutenzioni registrate.',
+          },
+        },
+        {
+          src: '/projects/manutencao-estoque.svg',
+          alt: {
+            pt: 'Controle de estoque por máquina com peças críticas e reposição.',
+            en: 'Per-machine inventory control with critical parts and replenishment.',
+            es: 'Control de stock por máquina con piezas críticas y reposición.',
+            it: 'Controllo inventario per macchina con parti critiche e rifornimento.',
+          },
+        },
       ],
       stack: ['Flutter', 'Supabase', 'SQLite', 'Firebase'],
       status: {

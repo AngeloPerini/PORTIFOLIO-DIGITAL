@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Local source screenshots copied into public/projects before deploy
+src/imagens/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

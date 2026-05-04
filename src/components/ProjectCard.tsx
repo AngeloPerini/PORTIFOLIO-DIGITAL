@@ -17,6 +17,7 @@ export default function ProjectCard({ project, featured = false }: ProjectCardPr
   const title = getLocalizedText(project.name, i18n.language);
   const summary = getLocalizedText(project.summary, i18n.language);
   const statusLabel = getLocalizedText(project.status, i18n.language);
+  const imageAlt = getLocalizedText(project.imageAlt, i18n.language);
 
   return (
     <motion.article
@@ -36,7 +37,7 @@ export default function ProjectCard({ project, featured = false }: ProjectCardPr
         ) : null}
         <LazyImage
           src={project.image}
-          alt={title}
+          alt={imageAlt}
           fallbackSeed={project.slug}
           className="h-[18rem] w-full transition duration-700 group-hover:scale-[1.03] sm:h-[20rem]"
         />

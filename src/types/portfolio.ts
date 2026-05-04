@@ -67,6 +67,11 @@ export interface ProjectArchitectureItem {
   value: LocalizedText;
 }
 
+export interface ProjectImage {
+  src: string;
+  alt: LocalizedText;
+}
+
 export interface Project {
   slug: string;
   name: LocalizedText;
@@ -74,7 +79,8 @@ export interface Project {
   description: LocalizedText;
   industry: LocalizedText;
   image: string;
-  gallery: string[];
+  imageAlt: LocalizedText;
+  gallery: ProjectImage[];
   stack: string[];
   status: LocalizedText;
   badges: string[];

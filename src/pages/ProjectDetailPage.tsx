@@ -26,6 +26,7 @@ export default function ProjectDetailPage() {
 
   const title = getLocalizedText(project.name, i18n.language);
   const summary = getLocalizedText(project.summary, i18n.language);
+  const imageAlt = getLocalizedText(project.imageAlt, i18n.language);
 
   return (
     <>
@@ -40,7 +41,7 @@ export default function ProjectDetailPage() {
         <div className="mt-8 grid gap-8 xl:grid-cols-[1.1fr_0.9fr]">
           <LazyImage
             src={project.image}
-            alt={title}
+            alt={imageAlt}
             fallbackSeed={project.slug}
             className="h-[26rem] w-full"
             wrapperClassName="glass-panel p-3"
@@ -99,11 +100,11 @@ export default function ProjectDetailPage() {
           {project.gallery.map((image, index) => (
             <LazyImage
               key={`${project.slug}-${index + 1}`}
-              src={image}
-              alt={`${title} ${index + 1}`}
+              src={image.src}
+              alt={getLocalizedText(image.alt, i18n.language)}
               fallbackSeed={`${project.slug}-${index + 1}`}
-              className="h-72 w-full"
-              wrapperClassName="glass-panel p-3"
+              className="h-72 w-full transition duration-700 hover:scale-[1.03]"
+              wrapperClassName="glass-panel p-3 shadow-[var(--shadow-card)]"
             />
           ))}
         </div>

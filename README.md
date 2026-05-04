@@ -49,9 +49,15 @@ Para trocar por imagens reais:
 ```ts
 image: '/projects/condominio-login-real.webp',
 gallery: [
-  '/projects/condominio-dashboard-real.webp',
-  '/projects/condominio-reservas-real.webp',
-  '/projects/condominio-comunicados-real.webp',
+  {
+    src: '/projects/condominio-dashboard-real.webp',
+    alt: {
+      pt: 'Dashboard administrativo do projeto de condominio.',
+      en: 'Administrative dashboard for the condominium project.',
+      es: 'Dashboard administrativo del proyecto de condominio.',
+      it: 'Dashboard amministrativo del progetto condominiale.',
+    },
+  },
 ],
 ```
 

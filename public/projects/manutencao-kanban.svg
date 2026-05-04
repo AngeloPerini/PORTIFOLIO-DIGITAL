@@ -1,0 +1,17 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" rx="48" fill="#07111f"/>
+  <rect x="96" y="96" width="1408" height="808" rx="42" fill="#0f1d2f" stroke="#27415f"/>
+  <text x="150" y="190" fill="#f5f7ff" font-family="Arial, sans-serif" font-size="66" font-weight="700">Sistema de manutencao</text>
+  <text x="150" y="240" fill="#93a1bf" font-family="Arial, sans-serif" font-size="28">Ordens, maquinas, historico e estoque.</text>
+  <rect x="150" y="330" width="380" height="480" rx="30" fill="#14263a"/>
+  <rect x="610" y="330" width="380" height="480" rx="30" fill="#14263a"/>
+  <rect x="1070" y="330" width="380" height="480" rx="30" fill="#14263a"/>
+  <rect x="184" y="400" width="312" height="106" rx="20" fill="#1d3654"/>
+  <rect x="184" y="540" width="312" height="106" rx="20" fill="#1d3654"/>
+  <rect x="644" y="400" width="312" height="106" rx="20" fill="#16423b"/>
+  <rect x="644" y="540" width="312" height="106" rx="20" fill="#16423b"/>
+  <rect x="1104" y="400" width="312" height="106" rx="20" fill="#4b3422"/>
+  <text x="190" y="374" fill="#29d3c2" font-family="Arial, sans-serif" font-size="24" font-weight="700">Pendente</text>
+  <text x="650" y="374" fill="#29d3c2" font-family="Arial, sans-serif" font-size="24" font-weight="700">Em andamento</text>
+  <text x="1110" y="374" fill="#29d3c2" font-family="Arial, sans-serif" font-size="24" font-weight="700">Concluido</text>
+</svg>

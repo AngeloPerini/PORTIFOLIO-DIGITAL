@@ -1,0 +1,17 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" rx="48" fill="#07111f"/>
+  <rect x="110" y="112" width="1380" height="776" rx="42" fill="#0f1d2f"/>
+  <text x="170" y="210" fill="#f5f7ff" font-family="Arial, sans-serif" font-size="62" font-weight="700">Ordens de manutencao</text>
+  <rect x="170" y="292" width="1260" height="104" rx="24" fill="#14263a"/>
+  <rect x="170" y="428" width="1260" height="104" rx="24" fill="#14263a"/>
+  <rect x="170" y="564" width="1260" height="104" rx="24" fill="#14263a"/>
+  <rect x="170" y="700" width="1260" height="104" rx="24" fill="#14263a"/>
+  <circle cx="226" cy="344" r="20" fill="#29d3c2"/>
+  <circle cx="226" cy="480" r="20" fill="#7587ff"/>
+  <circle cx="226" cy="616" r="20" fill="#f59e0b"/>
+  <circle cx="226" cy="752" r="20" fill="#22c55e"/>
+  <text x="280" y="354" fill="#d6def0" font-family="Arial, sans-serif" font-size="28">Checklist, responsavel, prioridade e prazo</text>
+  <text x="280" y="490" fill="#d6def0" font-family="Arial, sans-serif" font-size="28">Historico tecnico por chamado</text>
+  <text x="280" y="626" fill="#d6def0" font-family="Arial, sans-serif" font-size="28">Alertas operacionais</text>
+  <text x="280" y="762" fill="#d6def0" font-family="Arial, sans-serif" font-size="28">Fechamento com rastreabilidade</text>
+</svg>

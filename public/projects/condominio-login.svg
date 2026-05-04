@@ -1,0 +1,23 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" rx="48" fill="#10251f"/>
+  <path d="M0 0H1600V1000H0z" fill="url(#a)"/>
+  <rect x="88" y="92" width="860" height="816" rx="44" fill="#14532d"/>
+  <rect x="1030" y="164" width="436" height="672" rx="42" fill="#fffaf2"/>
+  <rect x="1136" y="300" width="224" height="58" rx="29" fill="#f3ece1"/>
+  <rect x="1090" y="424" width="316" height="64" rx="18" fill="#ffffff" stroke="#e2d8cc"/>
+  <rect x="1090" y="532" width="316" height="64" rx="18" fill="#ffffff" stroke="#e2d8cc"/>
+  <rect x="1090" y="642" width="316" height="64" rx="32" fill="#c96f35"/>
+  <text x="140" y="318" fill="#fffaf2" font-family="Arial, sans-serif" font-size="92" font-weight="700">Portal de</text>
+  <text x="140" y="420" fill="#fffaf2" font-family="Arial, sans-serif" font-size="92" font-weight="700">condominio</text>
+  <text x="140" y="510" fill="#dce9dd" font-family="Arial, sans-serif" font-size="34">Login personalizado por cliente</text>
+  <rect x="140" y="650" width="660" height="120" rx="28" fill="#ffffff" opacity=".1"/>
+  <text x="180" y="716" fill="#fffaf2" font-family="Arial, sans-serif" font-size="28" font-weight="700">Placeholder temporario</text>
+  <text x="180" y="756" fill="#dce9dd" font-family="Arial, sans-serif" font-size="22">Substitua por captura real do projeto.</text>
+  <text x="1090" y="256" fill="#14231f" font-family="Arial, sans-serif" font-size="34" font-weight="700">Acesso do morador</text>
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="1600" y2="1000">
+      <stop stop-color="#1f6f43" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#050816" stop-opacity=".65"/>
+    </linearGradient>
+  </defs>
+</svg>

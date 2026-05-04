@@ -1,0 +1,18 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" rx="48" fill="#07111f"/>
+  <rect x="116" y="116" width="1368" height="768" rx="42" fill="#0f1d2f"/>
+  <text x="176" y="218" fill="#f5f7ff" font-family="Arial, sans-serif" font-size="62" font-weight="700">Estoque por maquina</text>
+  <rect x="176" y="300" width="380" height="480" rx="30" fill="#14263a"/>
+  <rect x="610" y="300" width="380" height="480" rx="30" fill="#14263a"/>
+  <rect x="1044" y="300" width="380" height="480" rx="30" fill="#14263a"/>
+  <rect x="226" y="372" width="280" height="38" rx="19" fill="#29d3c2" opacity=".55"/>
+  <rect x="226" y="462" width="220" height="38" rx="19" fill="#ffffff" opacity=".12"/>
+  <rect x="226" y="552" width="250" height="38" rx="19" fill="#ffffff" opacity=".12"/>
+  <rect x="660" y="372" width="280" height="38" rx="19" fill="#7587ff" opacity=".55"/>
+  <rect x="660" y="462" width="220" height="38" rx="19" fill="#ffffff" opacity=".12"/>
+  <rect x="1094" y="372" width="280" height="38" rx="19" fill="#f59e0b" opacity=".55"/>
+  <rect x="1094" y="462" width="220" height="38" rx="19" fill="#ffffff" opacity=".12"/>
+  <text x="226" y="690" fill="#d6def0" font-family="Arial, sans-serif" font-size="28">Pecas criticas</text>
+  <text x="660" y="690" fill="#d6def0" font-family="Arial, sans-serif" font-size="28">Consumo previsto</text>
+  <text x="1094" y="690" fill="#d6def0" font-family="Arial, sans-serif" font-size="28">Reposicao</text>
+</svg>

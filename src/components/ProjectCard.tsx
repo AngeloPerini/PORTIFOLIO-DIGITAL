@@ -18,6 +18,10 @@ export default function ProjectCard({ project, featured = false }: ProjectCardPr
   const summary = getLocalizedText(project.summary, i18n.language);
   const statusLabel = getLocalizedText(project.status, i18n.language);
   const imageAlt = getLocalizedText(project.imageAlt, i18n.language);
+  const isInDevelopment = statusLabel.toLowerCase().includes('desenvolvimento')
+    || statusLabel.toLowerCase().includes('development')
+    || statusLabel.toLowerCase().includes('desarrollo')
+    || statusLabel.toLowerCase().includes('sviluppo');
 
   return (
     <motion.article
@@ -45,7 +49,16 @@ export default function ProjectCard({ project, featured = false }: ProjectCardPr
 
       <div className="flex h-full flex-col gap-5 px-1 pb-2 pt-5">
         <div className="flex flex-wrap items-center gap-3 text-xs uppercase tracking-[0.22em] text-[var(--text-muted)]">
-          <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">{statusLabel}</span>
+          <span
+            className={cn(
+              'rounded-full border px-3 py-1',
+              isInDevelopment
+                ? 'border-amber-300/35 bg-amber-400/12 text-amber-100'
+                : 'border-white/10 bg-white/5',
+            )}
+          >
+            {statusLabel}
+          </span>
           <span>{getLocalizedText(project.industry, i18n.language)}</span>
         </div>
 

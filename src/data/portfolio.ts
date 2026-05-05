@@ -522,6 +522,195 @@ export const portfolio: PortfolioData = {
       ],
     },
     {
+      slug: 'society-field-booking-system',
+      name: {
+        pt: 'Sistema de Reservas de Quadras (Society)',
+        en: 'Society Field Booking System',
+        es: 'Sistema de Reservas de Canchas Society',
+        it: 'Sistema di Prenotazione Campi Society',
+      },
+      summary: {
+        pt: 'Sistema em desenvolvimento inspirado no Airbnb para encontrar, visualizar e reservar quadras society com páginas próprias por local.',
+        en: 'Work-in-progress Airbnb-inspired platform to find, view, and book society football fields with dedicated venue pages.',
+        es: 'Sistema en desarrollo inspirado en Airbnb para encontrar, visualizar y reservar canchas society con páginas propias por local.',
+        it: 'Sistema in sviluppo ispirato ad Airbnb per trovare, visualizzare e prenotare campi society con pagine dedicate per struttura.',
+      },
+      description: {
+        pt: 'A solução organiza a jornada de descoberta e reserva de quadras, combinando busca por arenas, páginas individuais com informações do local, horários disponíveis, disponibilidade e gestão de partidas.',
+        en: 'The solution organizes the field discovery and booking journey, combining venue search, individual venue pages, available schedules, availability, and match organization workflows.',
+        es: 'La solución organiza la experiencia de descubrimiento y reserva de canchas, combinando búsqueda de arenas, páginas individuales, horarios disponibles, disponibilidad y organización de partidos.',
+        it: 'La soluzione organizza il percorso di scoperta e prenotazione dei campi, combinando ricerca strutture, pagine dedicate, orari disponibili, disponibilità e organizzazione partite.',
+      },
+      industry: {
+        pt: 'Reservas esportivas',
+        en: 'Sports bookings',
+        es: 'Reservas deportivas',
+        it: 'Prenotazioni sportive',
+      },
+      image: publicAsset('projects/society/society-home.png'),
+      imageAlt: {
+        pt: 'Página inicial do SocietyHub com busca para encontrar e reservar campos society.',
+        en: 'SocietyHub homepage with search to find and book society football fields.',
+        es: 'Página inicial de SocietyHub con búsqueda para encontrar y reservar canchas society.',
+        it: 'Homepage di SocietyHub con ricerca per trovare e prenotare campi society.',
+      },
+      gallery: [
+        {
+          src: publicAsset('projects/society/society-encontrar-arenas.png'),
+          alt: {
+            pt: 'Tela de busca de arenas do SocietyHub com campos em destaque e filtros de reserva.',
+            en: 'SocietyHub arena search screen with featured fields and booking filters.',
+            es: 'Pantalla de búsqueda de arenas de SocietyHub con canchas destacadas y filtros de reserva.',
+            it: 'Schermata di ricerca strutture SocietyHub con campi in evidenza e filtri prenotazione.',
+          },
+        },
+        {
+          src: publicAsset('projects/society/society-detalhes-arena.png'),
+          alt: {
+            pt: 'Página de detalhes da arena com fotos, avaliações, comodidades, horários e painel de reserva.',
+            en: 'Arena detail page with photos, reviews, amenities, schedules, and booking panel.',
+            es: 'Página de detalles de la arena con fotos, reseñas, comodidades, horarios y panel de reserva.',
+            it: 'Pagina dettaglio arena con foto, recensioni, servizi, orari e pannello prenotazione.',
+          },
+        },
+        {
+          src: publicAsset('projects/society/society-detalhes-partida.png'),
+          alt: {
+            pt: 'Tela de detalhes da partida com código de convite, jogadores e divisão de times.',
+            en: 'Match detail screen with invite code, players, and team split preview.',
+            es: 'Pantalla de detalles del partido con código de invitación, jugadores y división de equipos.',
+            it: 'Schermata dettagli partita con codice invito, giocatori e anteprima divisione squadre.',
+          },
+        },
+        {
+          src: publicAsset('projects/society/society-admin-dashboard.png'),
+          alt: {
+            pt: 'Dashboard administrativo com reservas, receita, ocupação e agenda do dia.',
+            en: 'Admin dashboard with bookings, revenue, occupancy, and today schedule.',
+            es: 'Dashboard administrativo con reservas, ingresos, ocupación y agenda del día.',
+            it: 'Dashboard amministrativa con prenotazioni, ricavi, occupazione e agenda del giorno.',
+          },
+        },
+        {
+          src: publicAsset('projects/society/society-perfil.png'),
+          alt: {
+            pt: 'Área do usuário com perfil, reservas, histórico de partidas e campos favoritos.',
+            en: 'User area with profile, bookings, match history, and favorite fields.',
+            es: 'Área del usuario con perfil, reservas, historial de partidos y canchas favoritas.',
+            it: 'Area utente con profilo, prenotazioni, storico partite e campi preferiti.',
+          },
+        },
+      ],
+      stack: ['React', 'TypeScript', 'Node.js', 'Supabase', 'Tailwind CSS'],
+      status: {
+        pt: 'Em desenvolvimento',
+        en: 'In development',
+        es: 'En desarrollo',
+        it: 'In sviluppo',
+      },
+      badges: ['Marketplace', 'Booking', 'Society', 'Em desenvolvimento'],
+      relevanceScore: 97,
+      features: [
+        {
+          pt: 'Busca de quadras por arena, localização, data e horário.',
+          en: 'Field search by venue, location, date, and time.',
+          es: 'Búsqueda de canchas por arena, ubicación, fecha y horario.',
+          it: 'Ricerca campi per struttura, posizione, data e orario.',
+        },
+        {
+          pt: 'Página própria para cada local com informações, fotos, avaliações, preço e disponibilidade.',
+          en: 'Dedicated page for each venue with information, photos, reviews, pricing, and availability.',
+          es: 'Página propia para cada local con información, fotos, reseñas, precio y disponibilidad.',
+          it: 'Pagina dedicata per ogni struttura con informazioni, foto, recensioni, prezzo e disponibilità.',
+        },
+        {
+          pt: 'Fluxo de reserva e organização de jogos com convite, presença de jogadores e divisão de times.',
+          en: 'Booking and match organization flow with invites, player attendance, and team split.',
+          es: 'Flujo de reserva y organización de partidos con invitación, asistencia y división de equipos.',
+          it: 'Flusso di prenotazione e organizzazione partite con inviti, presenze e divisione squadre.',
+        },
+        {
+          pt: 'Painel administrativo para acompanhar reservas, receita, ocupação e agenda do dia.',
+          en: 'Admin panel to monitor bookings, revenue, occupancy, and daily schedule.',
+          es: 'Panel administrativo para acompañar reservas, ingresos, ocupación y agenda diaria.',
+          it: 'Pannello amministrativo per monitorare prenotazioni, ricavi, occupazione e agenda giornaliera.',
+        },
+      ],
+      challenges: [
+        {
+          title: {
+            pt: 'Jornada parecida com marketplace',
+            en: 'Marketplace-like journey',
+            es: 'Experiencia tipo marketplace',
+            it: 'Percorso simile a marketplace',
+          },
+          description: {
+            pt: 'Organizar descoberta, comparação e reserva de quadras sem deixar a experiência pesada para o usuário.',
+            en: 'Organize discovery, comparison, and booking without making the user experience feel heavy.',
+            es: 'Organizar descubrimiento, comparación y reserva sin hacer pesada la experiencia del usuario.',
+            it: 'Organizzare scoperta, confronto e prenotazione senza appesantire l’esperienza utente.',
+          },
+        },
+        {
+          title: {
+            pt: 'Disponibilidade e organização de jogos',
+            en: 'Availability and match organization',
+            es: 'Disponibilidad y organización de partidos',
+            it: 'Disponibilità e organizzazione partite',
+          },
+          description: {
+            pt: 'Conectar horários disponíveis, reservas, convites e confirmação de jogadores em um fluxo coerente.',
+            en: 'Connect available schedules, bookings, invitations, and player confirmation into one coherent flow.',
+            es: 'Conectar horarios disponibles, reservas, invitaciones y confirmación de jugadores en un flujo coherente.',
+            it: 'Collegare orari disponibili, prenotazioni, inviti e conferma giocatori in un flusso coerente.',
+          },
+        },
+      ],
+      architecture: [
+        {
+          label: { pt: 'Frontend', en: 'Frontend', es: 'Frontend', it: 'Frontend' },
+          value: {
+            pt: 'React, TypeScript e Tailwind CSS para uma experiência responsiva com foco em busca, reserva e gestão.',
+            en: 'React, TypeScript, and Tailwind CSS for a responsive experience focused on search, booking, and management.',
+            es: 'React, TypeScript y Tailwind CSS para una experiencia responsiva enfocada en búsqueda, reserva y gestión.',
+            it: 'React, TypeScript e Tailwind CSS per un’esperienza responsive focalizzata su ricerca, prenotazione e gestione.',
+          },
+        },
+        {
+          label: { pt: 'Backend', en: 'Backend', es: 'Backend', it: 'Backend' },
+          value: {
+            pt: 'Estrutura prevista para autenticação, reservas, disponibilidade por quadra e gestão administrativa de arenas.',
+            en: 'Planned structure for authentication, bookings, field availability, and venue administration.',
+            es: 'Estructura prevista para autenticación, reservas, disponibilidad por cancha y gestión administrativa de arenas.',
+            it: 'Struttura prevista per autenticazione, prenotazioni, disponibilità dei campi e gestione delle strutture.',
+          },
+        },
+        {
+          label: { pt: 'Dados', en: 'Data', es: 'Datos', it: 'Dati' },
+          value: {
+            pt: 'Modelo orientado a locais, quadras, horários, reservas, jogadores e partidas.',
+            en: 'Data model oriented around venues, fields, schedules, bookings, players, and matches.',
+            es: 'Modelo orientado a locales, canchas, horarios, reservas, jugadores y partidos.',
+            it: 'Modello orientato a strutture, campi, orari, prenotazioni, giocatori e partite.',
+          },
+        },
+      ],
+      outcomes: [
+        {
+          pt: 'Produto em evolução para conectar jogadores a quadras disponíveis com menos fricção.',
+          en: 'Evolving product to connect players to available fields with less friction.',
+          es: 'Producto en evolución para conectar jugadores con canchas disponibles con menos fricción.',
+          it: 'Prodotto in evoluzione per connettere giocatori a campi disponibili con meno attrito.',
+        },
+        {
+          pt: 'Base visual e funcional pronta para amadurecer reservas, pagamentos e operação multi-arena.',
+          en: 'Visual and functional foundation ready to mature bookings, payments, and multi-venue operations.',
+          es: 'Base visual y funcional lista para evolucionar reservas, pagos y operación multi-arena.',
+          it: 'Base visiva e funzionale pronta a evolvere prenotazioni, pagamenti e operazione multi-struttura.',
+        },
+      ],
+    },
+    {
       slug: 'maintenance-management-system',
       name: {
         pt: 'Sistema de Manutenção',

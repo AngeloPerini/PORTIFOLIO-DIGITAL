@@ -34,6 +34,7 @@ export default function SiteLayout({ children }: SiteLayoutProps) {
       { to: '/projects', label: t('common.nav.projects') },
       { to: '/ideas', label: t('common.nav.ideas') },
       { to: '/about', label: t('common.nav.about') },
+      { to: '/curriculo', label: t('common.nav.curriculum') },
       { to: '/contact', label: t('common.nav.contact') },
     ],
     [t],

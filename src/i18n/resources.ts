@@ -2,7 +2,7 @@ export const resources = {
   pt: {
     translation: {
       common: {
-        nav: { home: 'Início', projects: 'Projetos', ideas: 'Ideias', about: 'Sobre', contact: 'Contato' },
+        nav: { home: 'Início', projects: 'Projetos', ideas: 'Ideias', about: 'Sobre', curriculum: 'Currículo', contact: 'Contato' },
         actions: {
           viewProjects: 'Ver projetos',
           contact: 'Entrar em contato',
@@ -13,6 +13,7 @@ export const resources = {
           backHome: 'Voltar para a home',
           talkNow: 'Falar agora',
           sendEmail: 'Enviar email',
+          downloadResume: 'Baixar currículo',
           openInstagram: 'Abrir Instagram',
         },
         labels: {
@@ -89,6 +90,13 @@ export const resources = {
         emailHint: 'Canal ideal para escopo, propostas e conversas profissionais.',
         instagramHint: 'Ponto adicional de contato e presença profissional.',
       },
+      curriculum: {
+        eyebrow: 'Currículo profissional',
+        title: 'Currículo de Angelo Perini em visualização completa.',
+        description: 'Uma visualização direta do currículo para consulta rápida em desktop e mobile, com opção de download.',
+        cardTitle: 'Visualização do currículo',
+        cardCopy: 'Documento centralizado, em alta resolução e pronto para leitura ou download imediato.',
+      },
       projectDetail: {
         summaryTitle: 'Visão do projeto',
         galleryTitle: 'Recortes visuais',
@@ -108,7 +116,7 @@ export const resources = {
   en: {
     translation: {
       common: {
-        nav: { home: 'Home', projects: 'Projects', ideas: 'Ideas', about: 'About', contact: 'Contact' },
+        nav: { home: 'Home', projects: 'Projects', ideas: 'Ideas', about: 'About', curriculum: 'Resume', contact: 'Contact' },
         actions: {
           viewProjects: 'View projects',
           contact: 'Get in touch',
@@ -119,6 +127,7 @@ export const resources = {
           backHome: 'Back to home',
           talkNow: 'Start conversation',
           sendEmail: 'Send email',
+          downloadResume: 'Download resume',
           openInstagram: 'Open Instagram',
         },
         labels: {
@@ -195,6 +204,13 @@ export const resources = {
         emailHint: 'Best channel for scope, proposals, and professional conversations.',
         instagramHint: 'Additional contact point and professional presence.',
       },
+      curriculum: {
+        eyebrow: 'Professional resume',
+        title: 'Angelo Perini resume in full-page view.',
+        description: 'A direct resume preview designed for quick reading on desktop and mobile, with a download option included.',
+        cardTitle: 'Resume preview',
+        cardCopy: 'Centered document, high resolution, and ready for reading or immediate download.',
+      },
       projectDetail: {
         summaryTitle: 'Project overview',
         galleryTitle: 'Visual snapshots',
@@ -214,7 +230,7 @@ export const resources = {
   es: {
     translation: {
       common: {
-        nav: { home: 'Inicio', projects: 'Proyectos', ideas: 'Ideas', about: 'Sobre mí', contact: 'Contacto' },
+        nav: { home: 'Inicio', projects: 'Proyectos', ideas: 'Ideas', about: 'Sobre mí', curriculum: 'Currículum', contact: 'Contacto' },
         actions: {
           viewProjects: 'Ver proyectos',
           contact: 'Contactar',
@@ -225,6 +241,7 @@ export const resources = {
           backHome: 'Volver al inicio',
           talkNow: 'Hablar ahora',
           sendEmail: 'Enviar correo',
+          downloadResume: 'Descargar currículum',
           openInstagram: 'Abrir Instagram',
         },
         labels: {
@@ -301,6 +318,13 @@ export const resources = {
         emailHint: 'Mejor canal para alcance, propuestas y conversaciones profesionales.',
         instagramHint: 'Punto adicional de contacto y presencia profesional.',
       },
+      curriculum: {
+        eyebrow: 'Currículum profesional',
+        title: 'Currículum de Angelo Perini en visualización completa.',
+        description: 'Una vista directa del currículum para lectura rápida en desktop y mobile, con opción de descarga.',
+        cardTitle: 'Vista del currículum',
+        cardCopy: 'Documento centrado, en alta resolución y listo para lectura o descarga inmediata.',
+      },
       projectDetail: {
         summaryTitle: 'Resumen del proyecto',
         galleryTitle: 'Recortes visuales',
@@ -320,7 +344,7 @@ export const resources = {
   it: {
     translation: {
       common: {
-        nav: { home: 'Home', projects: 'Progetti', ideas: 'Idee', about: 'Chi sono', contact: 'Contatto' },
+        nav: { home: 'Home', projects: 'Progetti', ideas: 'Idee', about: 'Chi sono', curriculum: 'Curriculum', contact: 'Contatto' },
         actions: {
           viewProjects: 'Vedi progetti',
           contact: 'Contattami',
@@ -331,6 +355,7 @@ export const resources = {
           backHome: 'Torna alla home',
           talkNow: 'Parliamone',
           sendEmail: 'Invia email',
+          downloadResume: 'Scarica curriculum',
           openInstagram: 'Apri Instagram',
         },
         labels: {
@@ -406,6 +431,13 @@ export const resources = {
         whatsappHint: 'Contatto rapido per un brief iniziale e allineamento.',
         emailHint: 'Canale migliore per scope, proposte e conversazioni professionali.',
         instagramHint: 'Punto di contatto extra e presenza professionale.',
+      },
+      curriculum: {
+        eyebrow: 'Curriculum professionale',
+        title: 'Curriculum di Angelo Perini in visualizzazione completa.',
+        description: 'Una vista diretta del curriculum per lettura rapida su desktop e mobile, con opzione di download.',
+        cardTitle: 'Anteprima curriculum',
+        cardCopy: 'Documento centrato, ad alta risoluzione e pronto per la lettura o il download immediato.',
       },
       projectDetail: {
         summaryTitle: 'Panoramica del progetto',
